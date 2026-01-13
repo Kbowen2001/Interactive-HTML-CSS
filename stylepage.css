@@ -1,5 +1,5 @@
 nav {
-  background-color: #f4f4f4;
+  background-color: #be99f8;
   padding: 20px;
   position: sticky;
   top: 106px;
@@ -26,5 +26,19 @@ nav li a {
 nav li a:hover{
   text-decoration: underline;
   color: pink;
-  
+
+}
+
+Header{
+    background: purple;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+footer{
+  background: pink;
+  color: white;
+  padding: 10px;
+  text-align: center;
 }
