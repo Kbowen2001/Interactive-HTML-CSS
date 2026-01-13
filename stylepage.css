@@ -17,7 +17,8 @@ nav ul {
 }
 nav li {
   padding-left: 1rem; 
-
+  width: 25%;
+  text-align: center;
 }
 nav a {
   text-decoration: none;
@@ -38,12 +39,14 @@ footer {
   background-color: pink;
   color: white;
   text-align: center;
-  padding: 1.25rem;
+  padding: 2rem;
 }
 footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  right: 0;
+  left: 0; 
 }
 /*end of header and footer styles*/
 
