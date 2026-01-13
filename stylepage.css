@@ -4,7 +4,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-
 }
 nav {
   display: flex; 
@@ -22,6 +21,8 @@ nav ul {
 
 nav li {
   padding-left: 1rem; 
+  margin-left: 50%;
+ 
 }
 nav a {
   text-decoration: none;
