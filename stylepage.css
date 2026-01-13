@@ -10,6 +10,13 @@ header {
   left: 0;
 }
 
+Header{
+    background: purple;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
 nav {
   background-color: #be99f8;
   padding: 20px;
@@ -41,10 +48,7 @@ nav li a:hover{
 
 }
 
-.banner {
-  position: relative;
 
-}
 
 
 
@@ -52,17 +56,11 @@ nav li a:hover{
 
 /*header and footer styles*/
 
-Header{
-    background: purple;
-    color: white;
-    padding: 10px;
-    text-align: center;
-}
-
 footer{
   background: pink;
   color: white;
   padding: 10px;
   text-align: center;
+  width: 100%;
 }
 /*end of header and footer styles*/
