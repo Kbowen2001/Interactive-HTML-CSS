@@ -21,6 +21,12 @@ header {
   left: 0;
 }
 
+.section-image{
+  background-image: "img/pinkbanner.webp";
+  background-size: cover;
+  background-position: center;
+}
+
 .main-nav {
   background-color: #be99f8;
   padding: 20px;
@@ -52,11 +58,7 @@ nav li a:hover{
   color: pink;
 
 }
-.blue nav li a:hover {
-  text-decoration: underline;
-  color: blue;
 
-}
 
 
 
