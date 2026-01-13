@@ -32,7 +32,7 @@ nav li a.join {
 
 nav li a:hover{
   text-decoration: underline;
-  color: green;
+  color: white;
 }
 
 
@@ -49,6 +49,7 @@ footer{
   color: white;
   padding: 10px;
   text-align: center;
+  position: static;
   
 }
 /*end of header and footer styles*/
