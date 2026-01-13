@@ -1,3 +1,5 @@
+
+/*nav bar styles*/
 nav {
   background-color: #be99f8;
   padding: 20px;
@@ -29,6 +31,10 @@ nav li a:hover{
 
 }
 
+/*end of nav bar*/
+
+/*header and footer styles*/
+
 Header{
     background: purple;
     color: white;
@@ -42,3 +48,4 @@ footer{
   padding: 10px;
   text-align: center;
 }
+/*end of header and footer styles*/
