@@ -4,21 +4,24 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+
 }
 nav {
   display: flex; 
   justify-content: space-between; 
   padding: 1rem 2rem; 
   background: pink; 
+
 }
 nav ul {
   display: flex; 
   list-style: none; 
   font-size: 38px;
+
 }
+
 nav li {
   padding-left: 1rem; 
- 
 }
 nav a {
   text-decoration: none;
