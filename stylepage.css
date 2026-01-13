@@ -1,39 +1,11 @@
 
 /*nav bar/banner/header styles*/
-header {
-  padding: 20px;
-  text-align: center;
-  position: fixed;
-  width: 100%;
-  z-index: 1;
-  top: 0;
-  left: 0;
-}
 
-header {
+nav {
   background-color: pink;
   padding: 20px;
-  text-align: center;
-  position: fixed;
-  width: 100%;
-  z-index: 1;
-  top: 0;
-  left: 0;
-}
-
-.section-image{
-  background-image: "img/pinkbanner.webp";
-  background-size: auto;
-  background-position: center;
-  max-width: 100%;
-}
-
-.main-nav {
-  background-color: #be99f8;
-  padding: 20px;
-  position: fixed;
+  position: sticky;
   top: 106px;
-  width: 100%;
 }
 
 nav ul {
@@ -54,11 +26,15 @@ nav li a {
   color: #4b4b4b;
 }
 
+nav li a.join {
+  color: pink;
+}
+
 nav li a:hover{
   text-decoration: underline;
-  color: pink;
-
+  color: green;
 }
+
 
 
 
