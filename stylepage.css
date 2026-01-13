@@ -1,42 +1,31 @@
 
 /*nav bar/banner/header styles*/
-
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 nav {
-  background-color: pink;
-  padding: 20px;
-  position: sticky;
-  top: 106px;
+  display: flex; 
+  justify-content: space-between; 
+  padding: 1rem 2rem; 
+  background: pink; 
 }
-
 nav ul {
-  white-space: nowrap;
-  max-width: 1200px;
-  margin: 0 auto;
-  text-align: center;
+  display: flex; 
+  list-style: none; 
 }
-
 nav li {
-  width: 25%;
-  display: inline-block;
-  font-size: 24px;
-}
+  padding-left: 1rem; 
 
-nav li a {
+}
+nav a {
   text-decoration: none;
-  color: #4b4b4b;
+  color: #fff;
 }
-
-nav li a.join {
-  color: pink;
+nav h2 {
+  color: #fff;
 }
-
-nav li a:hover{
-  text-decoration: underline;
-  color: white;
-}
-
-
-
 
 
 
