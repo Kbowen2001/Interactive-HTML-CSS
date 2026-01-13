@@ -14,6 +14,7 @@ nav {
 nav ul {
   display: flex; 
   list-style: none; 
+  font-size: 38px;
 }
 nav li {
   padding-left: 1rem; 
@@ -21,11 +22,11 @@ nav li {
 }
 nav a {
   text-decoration: none;
-  color: #5e1c1c;
+  color: white;
 }
 
 nav a:hover {
-  color: white;
+  color: blue;
   text-decoration: underline;
 }
 
