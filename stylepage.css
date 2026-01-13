@@ -44,13 +44,17 @@ nav li a:hover{
 
 /*header and footer styles*/
 
-footer{
-  background: pink;
+footer {
+  border-top: 2px solid white;
+  background-color: pink;
   color: white;
-  padding: 10px;
   text-align: center;
-  position: static;
-  
+  padding: 1.25rem;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 /*end of header and footer styles*/
 
