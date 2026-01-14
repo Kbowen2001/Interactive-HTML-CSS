@@ -139,6 +139,13 @@ footer {
   object-fit: cover;
 }
 
+.pcaption{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+  color: rgb(214, 174, 247);
+}
+
 /* media queries*/
 
 @media screen and (max-width: 1400px){
