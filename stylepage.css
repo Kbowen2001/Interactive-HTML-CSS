@@ -55,6 +55,9 @@ nav a.green:hover {
 header h1{
 text-align: center;
 }
+.pinkh {
+  color: pink;
+}
 .blueh {
   color: rgb(148, 228, 241);
 }
