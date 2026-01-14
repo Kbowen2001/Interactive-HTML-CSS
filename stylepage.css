@@ -198,28 +198,52 @@ footer {
   text-align: center;
   font-weight: bold;
   margin-top: 10px;
-  color: rgb(214, 174, 247);
+  color: rgb(162, 0, 202);
+    font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  letter-spacing: 0.03em;
+-webkit-text-stroke-width: .2px;
+-webkit-text-stroke-color: rgb(250, 209, 255);
+ text-shadow: 1px 1px #4b4b4b;
 }
 
 .bcaption{
   text-align: center;
   font-weight: bold;
   margin-top: 10px;
-  color: rgb(148, 228, 241);
+  color: rgb(49, 132, 153);
+   font-family: Arial, Helvetica, sans-serif;
+ font-size: 24px;
+  letter-spacing: 0.03em;
+-webkit-text-stroke-width: .2px;
+-webkit-text-stroke-color: rgb(186, 206, 243);
+ text-shadow: 1px 1px rgb(rgb(114, 76, 250));
 }
 
 .greencaption{
   text-align: center;
   font-weight: bold;
   margin-top: 10px;
-  color: rgb(185, 245, 185);
+  color: rgb(93, 151, 93);
+    font-family: Arial, Helvetica, sans-serif;
+   font-size: 24px;
+  letter-spacing: 0.03em;
+-webkit-text-stroke-width: .2px;
+-webkit-text-stroke-color: rgb(255, 255, 255);
+ text-shadow: 1px 1px rgb(243, 221, 23);
 }
 
 .yellowcaption{
   text-align: center;
   font-weight: bold;
   margin-top: 10px;
-  color: rgb(224, 203, 6);
+  color: rgb(216, 158, 0);
+    font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  letter-spacing: 0.03em;
+-webkit-text-stroke-width: .5px;
+-webkit-text-stroke-color: grey;
+ text-shadow: 1px 2px rgb(grey);
 }
 
 
