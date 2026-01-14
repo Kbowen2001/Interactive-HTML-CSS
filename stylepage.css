@@ -283,6 +283,9 @@ footer {
   .banner .welcome {
     font-size: 40px;
   }
+  p {
+    font-size: 18px;
+  }
   nav ul {
     gap: 6rem;
   }
@@ -294,6 +297,9 @@ footer {
   }
   .banner .welcome {
     font-size: 28px;
+  }
+  p {
+    font-size: 16px;
   }
   nav li{
     font-size: 18px;
@@ -310,6 +316,9 @@ footer {
     position: relative;
     text-align: center;
     padding:10px; 
+  }
+  p {
+    font-size: 14px;
   }
 
    .banner .welcome span{
@@ -330,6 +339,9 @@ footer {
   @media screen and (max-width: 560px){
     header h1 {
       font-size: 24px;
+    }
+    p {
+      font-size: 12px;
     }
     nav ul {
       gap: 0.5rem;
