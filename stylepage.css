@@ -54,6 +54,8 @@ nav a.green:hover {
 /*header and footer styles*/
 header h1{
 text-align: center;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+letter-spacing: 0.1em;
 }
 .pinkh {
   color: pink;
