@@ -31,8 +31,20 @@ nav a {
 }
 
 nav a:hover {
-  color: blue;
+  color: white;
   text-decoration: underline;
+}
+
+nav a.blue:hover {
+  color: rgb(148, 228, 241);
+}
+
+nav a.yellow:hover {
+  color: yellow;
+}
+
+nav a.green:hover {
+  color: rgb(144, 216, 144);
 }
 
 
