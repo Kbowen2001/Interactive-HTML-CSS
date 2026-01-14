@@ -228,7 +228,7 @@ footer {
 /*paragraph text*/
 
 .pinkp {
-  color: rgb(187, 116, 245);
+  color: rgb(216, 168, 255);
   text-align: center;
   font-weight: bold;
   padding: 0 200px;
@@ -237,6 +237,7 @@ footer {
   letter-spacing: 0.03em;
 -webkit-text-stroke-width: .2px;
 -webkit-text-stroke-color: rgb(255, 255, 255);
+ text-shadow: 1px 1px #92f3f7;
 
 }
 
@@ -250,10 +251,11 @@ footer {
   letter-spacing: 0.03em;
 -webkit-text-stroke-width: .2px;
 -webkit-text-stroke-color: rgb(255, 255, 255);
+ text-shadow: 1px 1px #e387fa;
 }
 
 .yellowp {
-  color: rgb(224, 203, 6);
+  color: rgb(243, 221, 23);
   text-align: center;
   font-weight: bold;
   padding: 0 200px;
@@ -262,6 +264,7 @@ footer {
   letter-spacing: 0.03em;
 -webkit-text-stroke-width: .2px;
 -webkit-text-stroke-color: rgb(255, 255, 255);
+ text-shadow: 1px 1px rgb(185, 245, 185);
 }
 
 .greenp {
@@ -274,6 +277,7 @@ footer {
   letter-spacing: 0.03em;
 -webkit-text-stroke-width: .2px;
 -webkit-text-stroke-color: rgb(255, 255, 255);
+ text-shadow: 1px 1px #92f3f7;
 }
 /*end of paragraph text*/
 
