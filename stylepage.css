@@ -225,6 +225,26 @@ footer {
 
 /*end of card edits*/
 
+/*colors for paragraph text*/
+.pinkp {
+  color: rgb(214, 174, 247);
+  text-align: center;
+}
+.bluep {
+  color: rgb(148, 228, 241);
+  text-align: center;
+}
+.yellowp {
+  color: rgb(253, 228, 0);
+  text-align: center;
+}
+.greenp {
+  color: rgb(185, 245, 185);
+  text-align: center;
+}
+/*end of colors for paragraph text*/
+
+
 /* media queries*/
 
 @media screen and (max-width: 1400px){
