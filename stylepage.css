@@ -236,13 +236,13 @@ footer {
   font-size: 24px;
   letter-spacing: 0.03em;
 -webkit-text-stroke-width: .2px;
--webkit-text-stroke-color: rgb(255, 255, 255);
- text-shadow: 1px 1px #92f3f7;
+-webkit-text-stroke-color: grey;
+ text-shadow: 1px 1px #4b4b4b;
 
 }
 
 .bluep {
-  color: rgb(148, 228, 241);
+  color: rgb(47, 109, 119);
   text-align: center;
   font-weight: bold;
   padding: 0 200px;
@@ -251,24 +251,24 @@ footer {
   letter-spacing: 0.03em;
 -webkit-text-stroke-width: .2px;
 -webkit-text-stroke-color: rgb(255, 255, 255);
- text-shadow: 1px 1px #e387fa;
+ text-shadow: 1px 1px rgb(grey); 
 }
 
 .yellowp {
-  color: white;
+  color: rgb(216, 158, 0);
   text-align: center;
   font-weight: bolder;
   padding: 0 200px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
   letter-spacing: 0.03em;
--webkit-text-stroke-width: 1px;
--webkit-text-stroke-color: black;
- text-shadow: 1px 2px rgb(74, 112, 74);
+-webkit-text-stroke-width: .5px;
+-webkit-text-stroke-color: grey;
+ text-shadow: 1px 2px rgb(grey);
 }
 
 .greenp {
-  color: rgb(185, 245, 185);
+  color: rgb(93, 151, 93);
   text-align: center;
   font-weight: bold;
   padding: 0 200px;
