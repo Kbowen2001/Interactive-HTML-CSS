@@ -55,6 +55,16 @@ nav a.green:hover {
 header h1{
 text-align: center;
 }
+.blueh {
+  color: rgb(148, 228, 241);
+}
+.yellowh {
+  color: yellow;
+}
+.greenh {
+  color: rgb(144, 216, 144);
+}
+
 
 footer {
   border-top: 2px solid white;
