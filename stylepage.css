@@ -52,6 +52,9 @@ nav a.green:hover {
 /*end of nav bar*/
 
 /*header and footer styles*/
+header h1{
+text-align: center;
+}
 
 footer {
   border-top: 2px solid white;
