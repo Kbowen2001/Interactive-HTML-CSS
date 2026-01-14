@@ -133,7 +133,34 @@ footer {
   flex-shrink: 0;
 }
 
-.cardpink img {
+.cardblue {
+  border: 3px solid rgb(148, 228, 241);
+  border-radius: 8px;
+  padding: 10px;
+  width: 300px;
+  flex-shrink: 0;
+}
+
+.cardyellow {
+  border: 3px solid rgb(253, 228, 0);
+  border-radius: 8px;
+  padding: 10px;
+  width: 300px;
+  flex-shrink: 0;
+}
+
+.cardgreen {
+  border: 3px solid rgb(185, 245, 185);
+  border-radius: 8px;
+  padding: 10px;
+  width: 300px;
+  flex-shrink: 0;
+}
+
+.cardpink img,
+.cardblue img,
+.cardyellow img,
+.cardgreen img {
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
@@ -146,6 +173,20 @@ footer {
   color: rgb(214, 174, 247);
 }
 
+.bcaption{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+  color: rgb(148, 228, 241);
+}
+
+.greencaption{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+  color: rgb(185, 245, 185);
+}
+/*end of card edits*/
 /* media queries*/
 
 @media screen and (max-width: 1400px){
