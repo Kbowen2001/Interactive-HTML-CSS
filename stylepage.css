@@ -231,24 +231,44 @@ footer {
   text-align: center;
   font-weight: bold;
   padding: 0 200px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 0.15em;
+-webkit-text-stroke-width: .2px;
+-webkit-text-stroke-color: rgb(255, 255, 255);
+
 }
+
 .bluep {
   color: rgb(148, 228, 241);
   text-align: center;
   font-weight: bold;
   padding: 0 200px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 0.15em;
+-webkit-text-stroke-width: .2px;
+-webkit-text-stroke-color: rgb(255, 255, 255);
 }
+
 .yellowp {
   color: rgb(224, 203, 6);
   text-align: center;
   font-weight: bold;
   padding: 0 200px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 0.15em;
+-webkit-text-stroke-width: .2px;
+-webkit-text-stroke-color: rgb(255, 255, 255);
 }
+
 .greenp {
   color: rgb(185, 245, 185);
   text-align: center;
   font-weight: bold;
   padding: 0 200px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 0.15em;
+-webkit-text-stroke-width: .2px;
+-webkit-text-stroke-color: rgb(255, 255, 255);
 }
 /*end of colors for paragraph text*/
 
