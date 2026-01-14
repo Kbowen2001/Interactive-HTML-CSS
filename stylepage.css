@@ -131,6 +131,13 @@ footer {
   padding: 10px;
   width: 300px;
   flex-shrink: 0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.cardpink:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(214, 174, 247, 0.4);
 }
 
 .cardblue {
@@ -139,6 +146,13 @@ footer {
   padding: 10px;
   width: 300px;
   flex-shrink: 0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.cardblue:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(148, 228, 241, 0.4);
 }
 
 .cardyellow {
@@ -147,6 +161,13 @@ footer {
   padding: 10px;
   width: 300px;
   flex-shrink: 0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.cardyellow:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(253, 228, 0, 0.4);
 }
 
 .cardgreen {
@@ -155,6 +176,13 @@ footer {
   padding: 10px;
   width: 300px;
   flex-shrink: 0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.cardgreen:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(185, 245, 185, 0.4);
 }
 
 .cardpink img,
@@ -193,6 +221,7 @@ footer {
   margin-top: 10px;
   color: rgb(224, 203, 6);
 }
+
 
 /*end of card edits*/
 /* media queries*/
