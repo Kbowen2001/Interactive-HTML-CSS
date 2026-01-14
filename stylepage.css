@@ -59,13 +59,14 @@ nav a.green:hover {
 /*header and footer styles*/
 header h1{
 text-align: center;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-letter-spacing: 0.1em;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+letter-spacing: 0.15em;
 -webkit-text-stroke-width: .2px;
--webkit-text-stroke-color: grey;
+-webkit-text-stroke-color: rgb(255, 255, 255);
 background-color: pink;
 padding: 1rem;
 margin: 0;
+font-size: 60px;
 }
 .pinkh {
   color: rgb(214, 174, 247);
@@ -74,14 +75,14 @@ margin: 0;
   color: rgb(148, 228, 241);
 }
 .yellowh {
-  color: yellow;
+  color: rgb(253, 249, 0);
 }
 .greenh {
   color: rgb(144, 216, 144);
 }
 
 .bow{
-  width: 50px;
+  height: 2em;
   vertical-align: middle;
 }
 
