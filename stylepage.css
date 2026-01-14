@@ -80,6 +80,11 @@ margin: 0;
   color: rgb(144, 216, 144);
 }
 
+.bow{
+  width: 50px;
+  vertical-align: middle;
+}
+
 
 footer {
   border-top: 2px solid white;
