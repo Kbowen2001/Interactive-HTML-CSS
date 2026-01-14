@@ -7,7 +7,7 @@
 }
 nav {
   display: flex; 
-  justify-content: space-between; 
+  justify-content: center; 
   padding: 1rem 2rem; 
   background: pink; 
 
@@ -22,7 +22,7 @@ nav ul {
 
 nav li {
   padding-left: 1rem; 
-  margin-left: 50%;
+  margin-left: 0;
  
 }
 nav a {
