@@ -186,6 +186,14 @@ footer {
   margin-top: 10px;
   color: rgb(185, 245, 185);
 }
+
+.yellowcaption{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+  color: rgb(253, 228, 0);
+}
+
 /*end of card edits*/
 /* media queries*/
 
