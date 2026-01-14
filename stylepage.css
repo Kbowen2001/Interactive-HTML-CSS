@@ -126,7 +126,7 @@ footer {
 }
 
 .cardpink {
-  border: 3px solid rgb(214, 174, 247);
+  border: 3px solid rgb(190, 110, 255);
   border-radius: 8px;
   padding: 10px;
   width: 300px;
@@ -141,7 +141,7 @@ footer {
 }
 
 .cardblue {
-  border: 3px solid rgb(148, 228, 241);
+  border: 3px solid rgb(150, 237, 250);
   border-radius: 8px;
   padding: 10px;
   width: 300px;
@@ -156,7 +156,7 @@ footer {
 }
 
 .cardyellow {
-  border: 3px solid rgb(253, 228, 0);
+  border: 3px solid rgb(255, 251, 215);
   border-radius: 8px;
   padding: 10px;
   width: 300px;
@@ -171,7 +171,7 @@ footer {
 }
 
 .cardgreen {
-  border: 3px solid rgb(185, 245, 185);
+  border: 3px solid rgb(175, 245, 175);
   border-radius: 8px;
   padding: 10px;
   width: 300px;
