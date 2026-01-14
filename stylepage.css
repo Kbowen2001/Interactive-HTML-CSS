@@ -162,7 +162,7 @@ footer {
 .cardyellow img,
 .cardgreen img {
   width: 100%;
-  aspect-ratio: 60/60;
+  aspect-ratio: 70/90;
   object-fit: cover;
 }
 
