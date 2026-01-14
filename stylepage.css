@@ -228,7 +228,7 @@ footer {
 /*paragraph text*/
 
 .pinkp {
-  color: rgb(216, 168, 255);
+  color: rgb(162, 0, 202);
   text-align: center;
   font-weight: bold;
   padding: 0 200px;
@@ -236,13 +236,13 @@ footer {
   font-size: 24px;
   letter-spacing: 0.03em;
 -webkit-text-stroke-width: .2px;
--webkit-text-stroke-color: grey;
+-webkit-text-stroke-color: rgb(250, 209, 255);
  text-shadow: 1px 1px #4b4b4b;
 
 }
 
 .bluep {
-  color: rgb(47, 109, 119);
+  color: rgb(49, 132, 153);
   text-align: center;
   font-weight: bold;
   padding: 0 200px;
@@ -250,8 +250,8 @@ footer {
  font-size: 24px;
   letter-spacing: 0.03em;
 -webkit-text-stroke-width: .2px;
--webkit-text-stroke-color: rgb(255, 255, 255);
- text-shadow: 1px 1px rgb(grey); 
+-webkit-text-stroke-color: rgb(186, 206, 243);
+ text-shadow: 1px 1px rgb(rgb(114, 76, 250)); 
 }
 
 .yellowp {
