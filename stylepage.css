@@ -94,7 +94,7 @@ font-size: 60px;
 }
 
 .navline{
-  border: 2px solid white;
+  border: 2px solid transparent;
   margin: 0;
 }
 
