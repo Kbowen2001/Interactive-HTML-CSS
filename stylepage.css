@@ -97,6 +97,9 @@ footer {
   .banner .welcome {
     font-size: 40px;
   }
+  nav ul {
+    gap: 6rem;
+  }
 
 @media screen and (max-width: 960px){
 
@@ -123,6 +126,9 @@ footer {
      nav li{
     font-size: 18px;
   }
+  nav ul {
+    gap: 1rem;
+  }
   .images li{
     width: 100%;
     display: block;
@@ -130,6 +136,9 @@ footer {
   }
 
   @media screen and (max-width: 560px){
+    nav ul {
+      gap: 0.5rem;
+    }
     nav li{
       font-size: 20px;
       display: block;
