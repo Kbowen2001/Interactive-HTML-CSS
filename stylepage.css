@@ -137,7 +137,7 @@ footer {
 
 .cardpink:hover {
   transform: translateY(-10px);
-  box-shadow: 0 8px 16px rgba(214, 174, 247, 0.4);
+  box-shadow: 0 8px 16px rgb(190, 110, 255);
 }
 
 .cardblue {
@@ -152,7 +152,7 @@ footer {
 
 .cardblue:hover {
   transform: translateY(-10px);
-  box-shadow: 0 8px 16px rgba(148, 228, 241, 0.4);
+  box-shadow: 0 8px 16px rgb(81, 191, 207);
 }
 
 .cardyellow {
@@ -167,7 +167,7 @@ footer {
 
 .cardyellow:hover {
   transform: translateY(-10px);
-  box-shadow: 0 8px 16px rgba(253, 228, 0, 0.4);
+  box-shadow: 0 8px 16px rgb(243, 221, 23);
 }
 
 .cardgreen {
@@ -182,7 +182,7 @@ footer {
 
 .cardgreen:hover {
   transform: translateY(-10px);
-  box-shadow: 0 8px 16px rgba(185, 245, 185, 0.4);
+  box-shadow: 0 8px 16px rgb(92, 252, 92);
 }
 
 .cardpink img,
@@ -224,6 +224,7 @@ footer {
 
 
 /*end of card edits*/
+
 /* media queries*/
 
 @media screen and (max-width: 1400px){
