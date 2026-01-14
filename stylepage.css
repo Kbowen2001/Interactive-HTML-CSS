@@ -230,21 +230,25 @@ footer {
   color: rgb(214, 174, 247);
   text-align: center;
   font-weight: bold;
+  padding: 0 200px;
 }
 .bluep {
   color: rgb(148, 228, 241);
   text-align: center;
   font-weight: bold;
+  padding: 0 200px;
 }
 .yellowp {
   color: rgb(224, 203, 6);
   text-align: center;
   font-weight: bold;
+  padding: 0 200px;
 }
 .greenp {
   color: rgb(185, 245, 185);
   text-align: center;
   font-weight: bold;
+  padding: 0 200px;
 }
 /*end of colors for paragraph text*/
 
