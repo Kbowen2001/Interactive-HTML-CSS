@@ -229,18 +229,22 @@ footer {
 .pinkp {
   color: rgb(214, 174, 247);
   text-align: center;
+  font-weight: bold;
 }
 .bluep {
   color: rgb(148, 228, 241);
   text-align: center;
+  font-weight: bold;
 }
 .yellowp {
-  color: rgb(253, 228, 0);
+  color: rgb(224, 203, 6);
   text-align: center;
+  font-weight: bold;
 }
 .greenp {
   color: rgb(185, 245, 185);
   text-align: center;
+  font-weight: bold;
 }
 /*end of colors for paragraph text*/
 
