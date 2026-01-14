@@ -152,7 +152,7 @@ footer {
 
 .cardblue:hover {
   transform: translateY(-10px);
-  box-shadow: 0 8px 16px rgb(81, 191, 207);
+  box-shadow: 0 8px 16px rgb(150, 237, 250);
 }
 
 .cardyellow {
@@ -167,7 +167,7 @@ footer {
 
 .cardyellow:hover {
   transform: translateY(-10px);
-  box-shadow: 0 8px 16px rgb(243, 221, 23);
+  box-shadow: 0 8px 16px rgb(255, 251, 215);
 }
 
 .cardgreen {
@@ -182,7 +182,7 @@ footer {
 
 .cardgreen:hover {
   transform: translateY(-10px);
-  box-shadow: 0 8px 16px rgb(92, 252, 92);
+  box-shadow: 0 8px 16px rgb(175, 245, 175);
 }
 
 .cardpink img,
