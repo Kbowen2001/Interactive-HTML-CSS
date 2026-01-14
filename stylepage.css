@@ -59,16 +59,16 @@ nav a.green:hover {
 /*header and footer styles*/
 header h1{
 text-align: center;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 letter-spacing: 0.1em;
 -webkit-text-stroke-width: .2px;
--webkit-text-stroke-color: white;
+-webkit-text-stroke-color: grey;
 background-color: pink;
 padding: 1rem;
 margin: 0;
 }
 .pinkh {
-  color: pink;
+  color: rgb(214, 174, 247);
 }
 .blueh {
   color: rgb(148, 228, 241);
@@ -83,6 +83,11 @@ margin: 0;
 .bow{
   width: 50px;
   vertical-align: middle;
+}
+
+.navline{
+  border: 2px solid white;
+  margin: 0;
 }
 
 
