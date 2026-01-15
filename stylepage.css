@@ -206,7 +206,7 @@ footer {
   box-shadow: 0 8px 16px rgb(175, 245, 175);
 }
 
-/* keep cards beneath the header/nav when hovered */
+
 .cards-container > div {
   position: relative;
   z-index: 1;
