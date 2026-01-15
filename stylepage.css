@@ -1,18 +1,30 @@
 
 /*nav bar/banner/header styles*/
+:root{
+  --header-height: 6.5rem;
+}
+
+header{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/*nav bar/banner/header styles*/
 {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 nav {
-  display: flex; 
-  justify-content: center; 
-  padding: rem 2rem; 
+  display: flex;
+  justify-content: center;
+  padding: 1rem 2rem;
   background: pink;
   position: sticky;
-  top: 0;
- 
+  top: var(--header-height);
+  z-index: 999;
+
 }
 nav ul {
   display: flex; 
@@ -384,5 +396,10 @@ footer {
     nav li{
       font-size: 16px;
       white-space: nowrap;
+  }
+  /* ensure cards/content stays below sticky header+nav */
+  .cards-container, section {
+    margin-top: 1rem;
+    padding-top: 0.5rem;
   }
   /*end of media queries*/ 
