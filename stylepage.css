@@ -446,37 +446,4 @@ footer {
   }
   /*end of media queries*/ 
 
-/* Mobile-specific fixes: ensure paragraph blocks stay centered and footer centers */
-@media screen and (max-width: 560px) {
-  .pinkp, .bluep, .yellowp, .greenp {
-    padding: 0 0.75rem !important;
-    max-width: calc(100% - 1.5rem) !important;
-    margin: 0.5rem auto !important;
-    text-align: center !important;
-    font-size: 16px !important;
-    box-sizing: border-box;
-    word-break: break-word;
-  }
-
-  /* footer adjustments for small screens */
-  footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    padding: 1rem 0.75rem;
-    text-align: center;
-    box-sizing: border-box;
-  }
-
-  footer * {
-    display: block;
-    text-align: center;
-  }
-
-  /* ensure body has enough bottom padding so content isn't hidden behind footer */
-  body {
-    padding-bottom: 5.25rem;
-  }
-}
+ 
