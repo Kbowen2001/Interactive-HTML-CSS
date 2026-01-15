@@ -7,7 +7,7 @@
 header{
   position: sticky;
   top: 0;
-  z-index: 1000;
+  z-index: 9999;
 }
 
 /*nav bar/banner/header styles*/
@@ -23,7 +23,7 @@ nav {
   background: pink;
   position: sticky;
   top: var(--header-height);
-  z-index: 999;
+  z-index: 9998;
 
 }
 nav ul {
@@ -195,6 +195,15 @@ footer {
 .cardgreen:hover {
   transform: translateY(-10px);
   box-shadow: 0 8px 16px rgb(175, 245, 175);
+}
+
+/* keep cards beneath the header/nav when hovered */
+.cards-container > div {
+  position: relative;
+  z-index: 1;
+}
+.cards-container > div:hover {
+  z-index: 1;
 }
 
 .cardpink img,
