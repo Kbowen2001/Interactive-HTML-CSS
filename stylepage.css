@@ -431,15 +431,15 @@ footer {
       font-size: 16px;
       white-space: nowrap;
   }
-  /* reduce bow size on very small screens so it fits beside title */
+ 
   .bow{
     height: 1.4em;
   }
-  header h1{ /* allow the title to scale to avoid wrapping */
+  header h1{ 
     font-size: 18px;
     padding: 0.6rem;
   }
-  /* ensure cards/content stays below sticky header+nav */
+ 
   .cards-container, section {
     margin-top: 1rem;
     padding-top: 0.5rem;
