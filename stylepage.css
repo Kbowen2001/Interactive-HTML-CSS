@@ -8,6 +8,9 @@ header{
   position: sticky;
   top: 0;
   z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*nav bar/banner/header styles*/
@@ -77,15 +80,19 @@ nav a.green:hover {
 
 /*header and footer styles*/
 header h1{
-text-align: center;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-letter-spacing: 0.15em;
--webkit-text-stroke-width: .2px;
--webkit-text-stroke-color: rgb(255, 255, 255);
-background-color: pink;
-padding: 1rem;
-margin: 0;
-font-size: 60px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  white-space: nowrap;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 0.15em;
+  -webkit-text-stroke-width: .2px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+  background-color: pink;
+  padding: 1rem;
+  margin: 0;
+  font-size: 60px;
 }
 .pinkh {
   color: rgb(214, 174, 247);
@@ -103,6 +110,8 @@ font-size: 60px;
 .bow{
   height: 2em;
   vertical-align: middle;
+  display: inline-block;
+  flex-shrink: 0;
 }
 
 .navline{
@@ -408,7 +417,7 @@ footer {
 
   @media screen and (max-width: 560px){
     header h1 {
-      font-size: 24px;
+      font-size: 22px;
     }
     p {
       font-size: 12px;
@@ -421,6 +430,14 @@ footer {
     nav li{
       font-size: 16px;
       white-space: nowrap;
+  }
+  /* reduce bow size on very small screens so it fits beside title */
+  .bow{
+    height: 1.4em;
+  }
+  header h1{ /* allow the title to scale to avoid wrapping */
+    font-size: 18px;
+    padding: 0.6rem;
   }
   /* ensure cards/content stays below sticky header+nav */
   .cards-container, section {
